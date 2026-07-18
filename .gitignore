@@ -1,0 +1,5 @@
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.jupyter/
+.jupyter_ystore.db
