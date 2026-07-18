@@ -8,7 +8,7 @@
 
 ```
 notebooks/
-  face_aligment_solution.ipynb          - выравнивание лиц (бывш. "Решение1.ipynb")
+  face_aligment_solution.ipynb          - выравнивание лиц 
   2_ArcFace_solution (1).ipynb          - обучение модели с ArcFace loss
   3_FaceRecognitionPipeline_solution.ipynb - итоговый пайплайн распознавания лиц
 
