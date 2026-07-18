@@ -25,14 +25,22 @@ group_photo/
 Веса моделей и часть данных превышают разумный размер для Git-репозитория, поэтому загружены на Google Диск:
 
 **Веса моделей** (`arcface_best.pt`, `ce_best.pt`, `best_hourglass.pt`):
-[ССЫЛКА НА GOOGLE ДИСК — models_weight]
+https://drive.google.com/drive/folders/1n7_ZNPNKmN-EXz20UaMfAd8XHZMwPhLp?usp=share_link
 
-**Изображения и сырые аннотации CelebA** (`faces_aligned/`, `faces_cropped/`, `img_celeba/`, а также оригинальные файлы аннотаций CelebA — `identity_CelebA.txt`, `list_attr_celeba.txt`, `list_bbox_celeba.txt`, `list_landmarks_celeba.txt`, `list_landmarks_align_celeba.txt`):
-[ССЫЛКА НА GOOGLE ДИСК — данные]
+**Сырые аннотации CelebA** (`identity_CelebA.txt`, `list_attr_celeba.txt`, `list_bbox_celeba.txt`, `list_landmarks_celeba.txt`, `list_landmarks_align_celeba.txt`):
+https://drive.google.com/drive/folders/1ev1vYnfGG9J8xhr2HaMB3flE1LkvTH2g?usp=share_link
+
+**faces_aligned/** (выровненные лица):
+https://drive.google.com/drive/folders/1-pr9DK8VmUWJ1xyCA6X2MYbey5ClaUaJ?usp=share_link
+
+**faces_cropped/** (кропнутые лица):
+https://drive.google.com/drive/folders/1T9mhikAh8HSLzDXeG-sK1FynsIDB1s3C?usp=share_link
+
+**img_celeba/** (исходные изображения CelebA) — не загружены на Диск из-за размера, скачиваются из оригинального источника датасета: [CelebA dataset](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html).
 
 ## Как воспроизвести
 
 1. Склонировать репозиторий.
-2. Скачать веса моделей и данные по ссылкам выше.
+2. Скачать веса моделей и данные по ссылкам выше, `img_celeba/` — из оригинального источника CelebA.
 3. Разложить файлы по путям, ожидаемым в ноутбуках (пути внутри ноутбуков — локальные, при необходимости поправить под свою структуру папок).
 4. Запускать ноутбуки в указанном порядке: `face_aligment_solution.ipynb` → `2_ArcFace_solution (1).ipynb` → `3_FaceRecognitionPipeline_solution.ipynb`.
