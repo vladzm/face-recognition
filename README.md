@@ -43,7 +43,7 @@ https://drive.google.com/drive/folders/1T9mhikAh8HSLzDXeG-sK1FynsIDB1s3C?usp=sha
 1. Склонировать репозиторий.
 2. Скачать веса моделей и данные по ссылкам выше, `img_celeba/` - из оригинального источника CelebA.
 3. Разложить файлы по путям, ожидаемым в ноутбуках (пути внутри ноутбуков - локальные, при необходимости поправить под свою структуру папок).
-4. Запускать ноутбуки в указанном порядке: `face_aligment_solution.ipynb` → `2_ArcFace_solution (1).ipynb` → `3_FaceRecognitionPipeline_solution.ipynb`.
+4. Запускать ноутбуки в указанном порядке: `face_aligment_solution.ipynb` -> `2_ArcFace_solution (1).ipynb` -> `3_FaceRecognitionPipeline_solution.ipynb`.
 
 ## Как должен выглядеть проект после добавления всех папок и файлов
 
